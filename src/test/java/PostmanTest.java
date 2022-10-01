@@ -18,7 +18,7 @@ public class PostmanTest {
                 .then()
                 .statusCode(200)
                 .body("data", equalTo("тест"))
-                .body("data.", is("fail"))
+                .body("data.", is("тест"))
         ;
     }
 }
